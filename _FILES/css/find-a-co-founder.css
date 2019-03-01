@@ -1,0 +1,54 @@
+.co-founder-wrapper {
+  padding: 100px 0 100px 0;
+  text-align: center;
+  background-color: #f3f3f3;
+}
+
+.co-founder-wrapper-text h2 {
+  margin: 20px 0;
+  font-weight: 600;
+  color: #292929;
+}
+.co-founder-wrapper-text p {
+  margin: 0 0 20px 0;
+  color: #292929;
+}
+.co-founder-box-wrapper {
+  margin: 20px;
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+}
+.co-founder-box {
+  width: 240px;
+  height: auto;
+  margin: 0 40px;
+  padding: 20px 10px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+}
+.co-founder-box h5 {
+  font-weight: bold;
+}
+#co-founder-school {
+  margin: 0 0 10px 0;
+}
+.co-founder-box li {
+  list-style: none;
+  font-style: italic;
+}
+.co-founder-box a {
+  display: inline-block;
+  margin: 10px 0 0 0;
+  padding: 5px 10px;
+  font-size: 0.8em;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 2px;
+  background-color: #ed9e2f;
+  transition: background 250ms ease;
+}
+.co-founder-box a:hover {
+  background-color: #9e248d;
+}

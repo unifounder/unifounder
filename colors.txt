@@ -1,0 +1,8 @@
+Dark-grey        = #1c1e22
+Background-color = #f3f3f3
+Orange-botton    = #ed9e2f
+Green-button     = #399244
+Green-button2    = #389117
+Text             = #292929
+Navigation-text  = #717070
+Button-hover     = #9e248d

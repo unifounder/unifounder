@@ -1,0 +1,134 @@
+/* -------------------- */
+/* -----navigation----- */
+/* -------------------- */
+.navigation-header-global {
+  position: relative;
+  background-color: #1c1e22;
+  width: 100%;
+  height: 80px;
+}
+/* unifounder logo */
+#unifounder-logo {
+  margin: 0 0 0 10%;
+}
+#unifounder-logo img {
+  position: absolute;
+  width: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+/* navigation link */
+.Navigation-global {
+  width: 80%;
+  margin: 0 auto;
+}
+.Navigation-global ul {
+  margin: 0 20%;
+}
+.Navigation-global ul li {
+  display: inline-block;
+  margin: 0 20px;
+}
+.Navigation-global ul li a {
+  padding: 5px;
+  color: #717070;
+  text-decoration: none;
+  line-height: 80px;
+  font-size: 0.8em;
+  text-transform: uppercase;
+}
+/* right side of the navigation bar */
+.navigation-rightside {
+  width: 15%;
+  position: absolute;
+  top: 50%;
+  right: 12%;
+  transform: translateY(-50%);
+}
+#icon_mail-navigation img {
+  margin: 0 20px;
+  width: 30px;
+  float: right;
+}
+#sign-up-button-navigation {
+  padding: 5px 30px;
+  border-radius: 2px;
+  background-color: #389117;
+  float: right;
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.8em;
+  transition: background 250ms ease;
+}
+#sign-up-button-navigation:hover {
+  background-color: #9e248d;
+}
+/* display none mobile navigation */
+.Navigation-mobile-global {
+  display: none;
+}
+/* --------------------------- */
+/* -------Media 1500px-------- */
+/* --------------------------- */
+@media only screen and (max-width: 1500px) {
+  .Navigation-global {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #unifounder-logo {
+    margin: 0;
+  }
+  .Navigation-global ul {
+    margin: 0 0 0 25%;
+  }
+  /* right side of the navigation bar */
+  .navigation-rightside {
+    width: 150px;
+    right: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  #icon_mail-navigation img {
+    margin: 0 5px;
+  }
+}
+/* -------------------------- */
+/* -------Media 800px-------- */
+/* -------------------------- */
+@media only screen and (max-width: 800px) {
+  #unifounder-logo {
+    padding: 40px;
+  }
+  #unifounder-logo img {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  /* -------Desktop-------- */
+  .Navigation-global {
+    display: none;
+  }
+  /* -------Mobile-------- */
+  .navigation-mobile-header-global {
+    background-color: #1c1e22;
+  }
+  .Navigation-mobile-global {
+    display: block;
+    text-align: center;
+  }
+  .Navigation-mobile-global ul li a {
+    display: block;
+    padding: 20px;
+    color: #717070;
+    text-decoration: none;
+    transition: background color 250ms ease;
+  }
+  .Navigation-mobile-global ul li a:hover {
+    background-color: #399244;
+    color: #f3f3f3;
+  }
+  .navigation-rightside {
+    display: none;
+  }
+}

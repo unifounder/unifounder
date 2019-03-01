@@ -1,0 +1,105 @@
+.explore-ideas-wrapper {
+  margin: 100px 0 0 0;
+  padding: 100px 0 0 0;
+  background-color: #f3f3f3;
+}
+
+.explore-ideas-wrapper-text h2 {
+  text-align: center;
+  margin: 20px 0;
+  font-weight: 600;
+  color: #292929;
+}
+.explore-ideas-wrapper-text p {
+  text-align: center;
+  margin: 0 0 20px 0;
+  color: #292929;
+}
+.explore-wrapper {
+  text-align: center;
+  width: 70%;
+  height: auto;
+  margin: 0 auto;
+}
+.explore-ideas-box-wrapper {
+  display: inline-grid;
+  grid-template-columns: auto auto auto;
+  margin: 20px;
+}
+.explore-ideas-box {
+  height: 400px;
+  background-color: #fff;
+  -webkit-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.18);
+  position: relative;
+}
+.explore-inside-wrapper {
+  padding: 0 10px;
+}
+.explore-ideas-box h5 {
+  text-align: start;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #292929;
+}
+.explore-ideas-box p {
+  text-align: start;
+  font-size: 0.8em;
+  font-weight: 300;
+  font-style: italic;
+  color: #292929;
+}
+#explore-ideas-profile-picture {
+  position: absolute;
+  right: 0;
+  bottom: 30%;
+  margin: 5px;
+}
+#explore-ideas-profile-picture img {
+  border-radius: 50%;
+}
+#explore-button {
+  color: #fff;
+  font-weight: 400;
+  border-radius: 2px;
+  text-decoration: none;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 8px 12px;
+  font-size: 0.8em;
+  background-color: #ed9e2f;
+}
+
+#explore-ideas-browse-all-buttom {
+  padding: 8px 20px;
+  border-radius: 2px;
+  background-color: #ed9e2f;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* --------------------------- */
+/* -------Media 1400px-------- */
+/* --------------------------- */
+@media only screen and (max-width: 1400px) {
+  .explore-wrapper {
+    width: 100%;
+  }
+}
+/* -------------------------- */
+/* -------Media 800px-------- */
+/* -------------------------- */
+@media only screen and (max-width: 800px) {
+  .explore-ideas-box {
+    height: 300px;
+  }
+  #explore-ideas-profile-picture {
+    bottom: 20%;
+  }
+  #explore-box-banner-image {
+    width: 100%;
+  }
+}
