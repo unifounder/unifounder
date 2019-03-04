@@ -1,0 +1,92 @@
+.top-index-banner {
+  background-image: url(../images/top_image_main.jpg);
+  height: 585px;
+  background-repeat: no-repeat;
+  background-size: auto;
+}
+.top-index-banner-inside {
+  width: 65%;
+  padding: 100px 0;
+  margin: 0 auto;
+}
+
+.top-index-banner-inside h2,
+.top-index-banner-inside p,
+.top-index-banner-inside a {
+  color: #fff;
+}
+
+.top-index-banner-inside h2,
+.top-index-banner-inside p {
+  padding: 10px 0;
+}
+
+.top-index-banner-inside h2 {
+  font-weight: 400;
+  font-size: 2em;
+}
+.top-index-banner-inside p {
+  font-size: 1.2em;
+  font-style: italic;
+  margin: 0 0 10px 0;
+}
+
+.top-index-banner-inside a {
+  margin: 20px 30px 0 0;
+  float: left;
+  text-align: center;
+  line-height: 40px;
+  text-decoration: none;
+  border-radius: 2px;
+  transition: background 250ms ease;
+}
+
+#top-index-banner-co-founders {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-color: #ed9e2f;
+}
+
+#top-index-banner-ideas {
+  display: inline-block;
+  width: 150px;
+  height: 40px;
+  background-color: #ed9e2f;
+}
+
+#top-index-banner-co-founders:hover,
+#top-index-banner-ideas:hover {
+  background-color: #9e248d;
+}
+
+/* -------------------------- */
+/* -------Media 800px-------- */
+/* -------------------------- */
+@media only screen and (max-width: 800px) {
+  .top-index-banner-inside {
+    width: 100%;
+    margin: 0 auto;
+    padding: 100px 0;
+    text-align: center;
+    position: relative;
+  }
+  .top-index-banner-inside h2 {
+    font-size: 3em;
+  }
+  .top-index-banner-inside p {
+    font-size: 1.5em;
+  }
+  .top-index-banner-inside a {
+    margin: 20px auto;
+    float: none;
+    text-align: center;
+  }
+  #top-index-banner-co-founders,
+  #top-index-banner-ideas {
+    display: block;
+    float: none;
+    padding: 0;
+    width: 200px;
+  }
+}
